@@ -1,4 +1,22 @@
-.Card{
-    margin: 10px 14% 10px 14%;
-    border-radius: 10px;
+.Card {
+  margin: 10px 14% 10px 14%;
+  border-radius: 10px;
+}
+.para {
+  margin: 10px 14% 10px 14%;
+  text-align: center;
+}
+.para p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+.error {
+  margin: 10px 14% 10px 14%;
+  text-align: center;
+}
+.error p {
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
 }

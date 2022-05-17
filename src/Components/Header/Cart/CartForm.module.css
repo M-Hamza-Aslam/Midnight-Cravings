@@ -1,0 +1,38 @@
+.CartFormConfirmBtn {
+  padding: 5px 20px;
+  background-color: #5a1807;
+  border: #5a1807;
+}
+.CartFormConfirmBtn:disabled {
+  padding: 5px 20px;
+  background-color: #5a1807 !important;
+  border: #5a1807;
+}
+.CartFormConfirmBtn:hover {
+  padding: 5px 20px;
+  background-color: #ce6c47 !important;
+  border: #ce6c47;
+}
+.CartFormCloseBtn {
+  padding: 5px 20px;
+  background-color: transparent;
+  color: #5a1807;
+  border: solid 1px #5a1807;
+}
+.CartFormCloseBtn:hover {
+  padding: 5px 20px;
+  background-color: #ce6c47;
+  color: white;
+  border: solid 1px #ce6c47;
+}
+.inputtext span {
+  background-color: #ce6c47;
+  color: white;
+}
+.inputerror {
+  border: 1px solid #d9534f !important;
+}
+.inputerror span {
+  background-color: #d9534f;
+  color: white;
+}

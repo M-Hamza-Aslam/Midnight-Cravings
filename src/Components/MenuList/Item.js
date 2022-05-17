@@ -8,6 +8,9 @@ const Item = (props) => {
 
   //functions:
   const AddButtonHandler = () => {
+    if (+numberInput.current.value === 0) {
+      return;
+    }
     CartCntxt.addItem({
       name: props.item.name,
       price: props.item.price,
